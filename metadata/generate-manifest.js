@@ -13,7 +13,7 @@ async function readDirectory(directory) {
         await Promise.all(listing.map(async itemName => {
             const fullItemName = path.join(directory, itemName);
             if (fs.lstatSync(fullItemName).isDirectory()) {
-                manifest = manifest.concat(await readDirectory(fullItemName));
+                (await readDirectory(fullItemName)).forEach(item => manifest.push(item));
             } else if (/.json$/.test(fullItemName)) {
                 manifest.push(await readFile(directory, itemName));
             }

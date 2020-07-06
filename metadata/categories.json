@@ -1,4 +1,4 @@
 {
-    "Other": "Other",
-    "HIPAA": "HIPAA"
+    "controls/Other": "Other",
+    "controls/HIPAA": "HIPAA"
 }
