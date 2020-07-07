@@ -2,8 +2,6 @@ const fs = require('fs');
 const path = require('path');
 const { promisify } = require('util');
 
-const categories = require('./categories.json');
-
 async function readDirectory(directory) {
     try {
         const listing = await promisify(fs.readdir)(directory);
@@ -34,7 +32,7 @@ async function readFile(directory, filename) {
 
         return {
             filename: fullFilename,
-            category: categories[directory] || 'Uncategorized',
+            category: directory.split('/').slice(-1)[0],
             name: fileObj.name,
             instructions: fileObj.instructions
         };
