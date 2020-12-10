@@ -1,0 +1,325 @@
+{
+  "name": "Workplace Safety Audit",
+  "instructions": "<p>Perform this workplace safety check periodically to identify safety issues.</p>",
+  "items": [
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "Housekeeping",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are floor surfaces free of water, oil or other fluids?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are floor surfaces even? (e.g. no loose tiles or carpet that is torn or has ridges)",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are walkways and doorways clear of boxes, extension cords and litter?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are stairways kept clear of boxes, equipment and other obstructions?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are work areas, walkways and stairs well lit?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": " Are work stations tidy and well-maintained?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are emergency procedures clearly displayed?",
+      "choices": []
+    },
+    {
+      "type": "FileUpload",
+      "text": "Upload photo of main walk area.",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Comments/Corrective Action Required:",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "Manual Handling",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are work items that are regularly used within easy reach?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there sufficient area around machines or equipment to enable easy access?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are appropriate manual handling aids readily available?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Comments/Corrective Action Required:",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "Storage",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are items placed neatly and securely on shelves?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are heavy items stored below shoulder height?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Can items on high shelves be easily reached?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Comments/Corrective Action Required:",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "First Aid",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are First Aid Kits located in easily accessible and prominent areas?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are First Aid Kit contents clean and tidy?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are First Aid Kit contents within their expiry date?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are First Aid Kit contents full and/or suitably replenished?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Comments/Corrective Action Required:",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "Safety Signs",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are all exits clearly marked and free from obstruction?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "If no exit is in the immediate area, are there signs and arrows indicating the direction to exits?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is the location of the First Aid Kit clearly identified?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is the location of fire alarms and fire fighting equipment clearly identified?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are there any potentially hazardous areas that warnings are appropriate?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is the size of the sign appropriate to the environment, lighting and viewing distance?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Comments/Corrective Action Required:",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": " Electrical",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have electrical appliances been inspected and tagged?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are extension leads and power boards maintained in a safe operating condition?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are the electrical fittings and electrical equipment regularly inspected and maintained?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are switchboards in a safe operating condition and secured?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Comments/Corrective Action Required:",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "Machinery and Equipment",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are machine guards in place on all operating equipment?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are emergency stop buttons clearly visible and operational?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is personal protective equipment (e.g. Hearing protection, Eye protection, Head protection, and/or Gloves) adequately supplied?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Comments/Corrective Action Required:",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "Chemical and Dangerous Goods",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are chemical and hazardous substances clearly labelled?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are chemical and hazardous substances stored safely?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there adequate ventilation or an exhaust system?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are Safety Data Sheets available and can workers easily access them?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Comments/Corrective Action Required:",
+      "choices": []
+    }
+  ]
+}

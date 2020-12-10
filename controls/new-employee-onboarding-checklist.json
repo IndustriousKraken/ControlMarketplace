@@ -1,0 +1,60 @@
+{
+  "name": "New Employee Onboarding",
+  "items": [
+    {
+      "type": "ShortAnswer",
+      "text": "Employee Name",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Sent or hand -delivered Employee Welcome Pack?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Date delivered:",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Assigned mentor to employee?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Mentor name:",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Created induction and training schedule?",
+      "choices": []
+    },
+    {
+      "type": "FileUpload",
+      "text": "Attach schedule:",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Training manual delivered?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Guided tour given?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Discussed realistic goals with manager and HR?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Complimented new employee on at least one thing on their first day?",
+      "choices": []
+    }
+  ]
+}

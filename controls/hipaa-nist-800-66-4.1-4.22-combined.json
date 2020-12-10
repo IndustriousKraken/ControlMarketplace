@@ -1,0 +1,3587 @@
+{
+  "name": "HIPAA Compliance: NIST 800-66 4.1-4.22 Combined Evaluation",
+  "instructions": "<p>Considerations when applying the HIPAA security rule.</p><p>Complete the following sections to evaluate compliance with HIPAA standards, based on NIST 800-66.</p><p>From: <a href='https://www.nist.gov/publications/introductory-resourcEguidEimplementing-health-insurancEportability-and'>NIST Publications</a>",
+  "items": [
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "ADMINISTRATIVE SAFEGUARDS",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.1: Security Management Process (§ 164.308(a)(1))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "1) Identify relevant information systems",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Identify all information systems that house EPHI.  (Include all hardware and software that are used to collect, store, process or transmit EPHI.)",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Analyze business functions and verify ownership and control of information system elements as necessary.",
+      "choices": []
+    },
+    {
+      "type": "FileUpload",
+      "text": "Upload relevant documents",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are all hardware and software for which the organization is responsible periodically inventoried?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have hardware and software that maintains or transmits EPHI been identified?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Does this inventory include removable media and remote access devices?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is the current information system configuration documented, including connections to other systems?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have the types of information and uses of that information been identified and the sensitivity of each type of information been evaluated? ",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Conduct Risk Assessment",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Conduct an accurate and thorough assessment of the potential risks and vulnerabilities to the confidentiality, integrity, and availability of EPHI held by the covered entity.",
+      "choices": []
+    },
+    {
+      "type": "FileUpload",
+      "text": "Risk Assessment documents",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Are there any prior risk assessments, audit comments, security requirements, and/or security test results? What were the results?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Is there intelligence available from agencies, the Office of the Inspector General (OIG), the US-CERT, virus alerts, and/or vendors?  What are they?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What are the current and planned controls?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Is the facility located in a region prone to any natural disasters, such as earthquakes, floods, or fires? Describe.",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Has responsibility been assigned to check all hardware and software, including hardware and software used for remote access, to determine whether selected security settings are enabled?  If yes, to whom?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Is there an analysis of current safeguards and their effectiveness relative to the identified risks? Describe",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Have all processes involving EPHI been considered, including creating, receiving, maintaining, and transmitting it?  Please explain.",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "3) Implement a Risk Management Program",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<p>Implement security measures sufficient to reduce risks and vulnerabilities to a reasonable and appropriate level to comply with &sect;164.306(a).</p>",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Do current safeguards ensure the confidentiality, integrity, and availability of all EPHI? Explain",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Do current safeguards protect against reasonably anticipated uses or disclosures of EPHI that are not permitted by the Privacy Rule? Explain",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Has the covered entity protected against all reasonably anticipated threats or hazards to the security and integrity of EPHI? Explain",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Has the covered entity assured compliance with all policies and procedures by its workforce? Explain",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "4) Acquire IT Systems and Services",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<p>Although the HIPAA Security Rule does not require purchasing any particular technology, additional hardware, software, or services may be needed to adequately protect information. Considerations for their selection should include the following:</p>\n<ul>\n<li>Applicability of the IT solution to the intended environment;</li>\n<li>The sensitivity of the data;</li>\n<li>The organization&rsquo;s security policies, procedures, and standards; and</li>\n<li>Other requirements such as resources available for operation, maintenance, and training.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "List IT services and/or products that need to be acquired.",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Will new security controls work with the existing IT architecture?  Explain.",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Have the security requirements of the organization been compared with the security features of existing or proposed hardware and software?  Explain",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Has a cost-benefit analysis been conducted to determine the reasonableness of the investment given the security risks identified? Explain",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Has a training strategy been developed? Describe.",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "5) Create and Deploy Policies and Procedures",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Implement the decisions concerning the management, operational, and technical controls selected to mitigate identified risks.</li>\n<li>Create policies that clearly establish roles and responsibilities and assign ultimate responsibility for the implementation of each control to particular individuals or offices.</li>\n<li>Create procedures to be followed to accomplish particular security-related tasks.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Are policies and procedures in place for security? Describe.",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there a formal (documented) system security plan?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": " Is there a formal contingency plan?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there a process for communicating policies and procedures to the affected employees?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are policies and procedures reviewed and updated as needed?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "6) Develop and Implement a Sanction Policy",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Apply appropriate sanctions against workforce members who fail to comply with the security policies and procedures of the covered entity.</li>\n<li>Develop policies and procedures for imposing appropriate sanctions (e.g., reprimand, termination) for noncompliance with the organization&rsquo;s security policies.</li>\n<li>Implement sanction policy as cases arise.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Is there a formal process in place to address system misuse, abuse, and fraudulent activity? Describe.",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there a formal process in place to address system misuse, abuse, and fraudulent activity?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Has the need and appropriateness of a tiered structure of sanctions that accounts for the magnitude of harm and possible types of inappropriate disclosures been considered? Elaborate..",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "How will managers and employees be notified regarding suspect activity?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "7) Develop and Deploy the Information System Activity Review Process",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<p>Implement procedures to regularly review records of information system activity, such as audit logs, access reports, and security incident tracking reports.</p>",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Who is responsible for the overall process and results?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "How often will reviews take place?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "How often will review results be analyzed?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "What is the organization’s sanction policy for employee violations?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Where will audit information reside (e.g., separate server)?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "8) Develop Appropriate Standard Operating Procedures",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<p>Determine the types of audit trail data and monitoring procedures that will be needed to derive exception reports.</p>",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "How will exception reports or logs be reviewed?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Where will monitoring reports be filed and maintained?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "9) Implement the Information System Activity Review and Audit Process",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Activate the necessary review process.</li>\n<li>Begin auditing and logging activity.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "What mechanisms will be implemented to assess the effectiveness of the review process (measures)?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "What is the plan to revise the review process when needed?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.2 Assigned Security Responsibility (§ 164.308(a)(2))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<p>HIPAA Standard: Identify the security official who is responsible for the development and implementation of the policies and procedures required by this subpart for the entity.</p>",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "1) Select a Security Official To Be Assigned Responsibility for HIPAA Security",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Identify the individual who has final responsibility for security.</li>\n<li>Select an individual who is able to assess effective security and to serve as the point of contact for security policy, implementation, and monitoring.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Who in the organization oversees the development and communication of security policies and procedures?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Who in the organization is responsible for conducting the risk assessment?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Who in the organization handles the results of periodic security evaluations and continuous monitoring?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Who in the organization directs IT security purchasing and investment?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Who in the organization ensures that security concerns have been",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Who in the organization is authorized to accept risk from information systems on behalf of the organization?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Assign and Document the Individual’s Responsibility",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Document the assignment to one individual&rsquo;s responsibilities in a job description.</li>\n<li>Communicate this assigned role to the entire organization.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "Task",
+      "text": "Is there a complete job description that accurately reflects assigned security duties and responsibilities?",
+      "choices": []
+    },
+    {
+      "type": "Task",
+      "text": "Have the staff members in the organization been notified as to whom to call in the event of a security problem?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.3: Workforce Security (§ 164.308(a)(3))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "1) Implement Procedures for Authorization and/or Supervision",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Implement procedures for the authorization and/or supervision of workforce members who work with EPHI or in locations where it might be accessed.&nbsp;</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have chains of command and lines of authority been established? ",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have staff members been made aware of the identity and roles of their supervisors?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Establish Clear Job Descriptions and Responsibilities",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Define roles and responsibilities for all job functions.</li>\n<li>Assign appropriate levels of security oversight, training, and access.</li>\n<li>Identify in writing who has the business need&mdash;and who has been granted permission&mdash;to view, alter, retrieve, and store EPHI, and at what times, under what circumstances, and for what purposes.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are there written job descriptions that are correlated with appropriate levels of access? ",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have staff members been provided copies of their job descriptions, informed of the access granted to them, as well as the conditions by which this access can be used?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "3) Establish Criteria and Procedures for Hiring and Assigning Tasks",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Ensure that staff members have the necessary knowledge, skills, and abilities to fulfill particular roles, e.g., positions involving access to and use of sensitive information.&nbsp;</li>\n<li>Ensure that these requirements are included as part of the personnel hiring process.&nbsp;</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have the qualifications of candidates for specific positions been checked against the job description?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have determinations been made that candidates for specific positions are able to perform the tasks of those positions?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "4) Establish a Workforce Clearance Procedure",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Implement procedures to determine that the access of a workforce member to EPHI is appropriate.</li>\n<li>Implement appropriate screening of persons who will have access to EPHI.</li>\n<li>Implement a procedure for obtaining clearance from appropriate offices or individuals where access is provided or terminated.&nbsp;</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there an implementation strategy that supports the designated access authorities?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are applicants’ employment and educational references checked, if reasonable and appropriate?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have background checks been completed, if reasonable and appropriate?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do procedures exist for obtaining appropriate sign-offs to grant or terminate access to EPHI?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "5) Establish Termination Procedures ",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Implement procedures for terminating access to EPHI when the employment of a workforce member ends or as required by determinations made as specified in &sect;164.308(a)(3)(ii)(B).</li>\n<li>Develop a standard set of procedures that should be followed to recover access control devices (Identification [ID] badges, keys, access cards, etc.) when employment ends.</li>\n<li>Deactivate computer access accounts (e.g., disable user IDs and passwords). See the Access Controls Standard.&nbsp;</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are there separate procedures for voluntary termination (retirement, promotion, transfer, change of employment) vs. involuntary termination (termination for cause, reduction in force, involuntary transfer, and criminal or disciplinary actions), if reasonable and appropriate?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there a standard checklist for all action items that should be completed when an employee leaves (return of all access devices, deactivation of logon accounts [including remote access], and delivery of any needed data solely under the employee’s control)?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.4: Information Access Management (§ 164.308(a)(4))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "1) Isolate Healthcare Clearinghouse Functions",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>If a healthcare clearinghouse is part of a larger organization, the clearinghouse must implement policies and procedures that protect the EPHI of the clearinghouse from unauthorized access by the larger organization.</li>\n<li>Determine if a component of the covered entity constitutes a healthcare clearinghouse under the HIPAA Security Rule.</li>\n<li>If no clearinghouse functions exist, document this finding. If a clearinghouse exists within the organization, implement procedures for access consistent with the HIPAA Privacy Rule.&nbsp;</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Does the healthcare clearinghouse share hardware or software with a larger organization of which it is a part?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Does the healthcare clearinghouse share staff or physical space with staff from a larger organization?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Has a separate network or subsystem been established for the healthcare clearinghouse, if reasonable and appropriate?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Has staff of the healthcare clearinghouse been trained to safeguard EPHI from disclosure to the larger organization, if required for compliance with the HIPAA Privacy Rule?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Implement Policies and Procedures for Authorizing Access",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Implement policies and procedures for granting access to EPHI, for example, through access to a workstation, transaction, program, process, or other mechanism.</li>\n<li>Decide how access will be granted to workforce members within the organization.</li>\n<li>Select the basis for restricting access.</li>\n<li>Select an access control method (e.g., identity-based, rolEbased, or other reasonable and appropriate means of access.)</li>\n<li>Determine if direct access to EPHI will ever be appropriate for individuals external to the organization (e.g., business partners or patients seeking access to their own EPHI).&nbsp;</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do the organization’s IT systems have the capacity to set access controls?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are there documented job descriptions that accurately reflect assigned duties and responsibilities and enforce segregation of duties?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Does the organization grant remote access to EPHI?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "What method(s) of access control is (are) used (e.g., identity-based, rolEbased, location-based, or a combination)?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "3) Implement Policies and Procedures for Access Establishment and Modification",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Implement policies and procedures that, based upon the entity's access authorization policies, establish, document, review, and modify a user's right of access to a workstation, transaction, program, or process.</li>\n<li>Establish standards for granting access.</li>\n<li>Provide formal authorization from the appropriate authority before granting access to sensitive information.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are duties separated such that only the minimum necessary EPHI is made available to each staff member based on their job requirements?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "4) Evaluate Existing Security Measures Related to Access",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Evaluate the security features of access controls already in place, or those of any planned for implementation, as<br />appropriate.</li>\n<li>Determine if these security features involve alignment with other existing management, operational, and technical controls, such as policy standards and personnel procedures, maintenance and review of audit trails, identification and authentication of users, and physical access controls.&nbsp;</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are there policies and procedures related to the security of access controls? If so, are they updated regularly?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are authentication mechanisms used to verify the identity of those accessing systems protected from inappropriate manipulation?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Does management regularly review the list of access authorizations, including remote access authorizations, to verify that the list is accurate and has not been inappropriately altered?",
+      "choices": []
+    },
+        {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.5: Security Awareness and Training (§ 164.308(a)(5))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "1) Conduct a Training Needs Assessment",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Determine the training needs of the organization.</li>\n<li>Interview and involve key personnel in assessing security training needs.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What awareness, training, and education programs are needed? Which are required?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What is the current status regarding how these needs are being addressed (e.g., how well are current efforts working)?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Where are the gaps between the needs and what is being done (e.g., what more needs to be done)?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What are the training priorities in terms of content and audience?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Develop and Approve a Training Strategy and a Plan",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Address the specific HIPAA policies that require security awareness and training in the security awareness and training program.</li>\n<li>Outline in the security awareness and training program the scope of the awareness and training program; the goals; the target audiences; the learning objectives; the deployment methods, evaluation, and measurement techniques; and the frequency of training.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there a procedure in place to ensure that everyone in the organization receives security awareness training?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What type of security training is needed to address specific technical topics based on job responsibility?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "When should training be scheduled to ensure that compliance deadlines are met?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Has the organization considered the training needs of non-employees (e.g., contractors, interns)?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "3) Protection from Malicious Software; Log-in Monitoring; and Password Management",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>As reasonable and appropriate, train employees regarding procedures for:\n<ul>\n<li>Guarding against, detecting, and reporting malicious software;</li>\n<li>Monitoring log-in attempts and reporting discrepancies; and</li>\n<li>Creating changing, and safeguarding passwords.</li>\n</ul>\n</li>\n<li>Incorporate information concerning staff members&rsquo; roles and responsibilities in implementing these implementation specifications into training and awareness efforts.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do employees know the importance of timely application of system patches to protect against malicious software and exploitation of vulnerabilities?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are employees aware that log-in attempts may be monitored?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do employees that monitor log-in attempts know to whom to report discrepancies?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do employees understand their roles and responsibilities in selecting a password of appropriate strength, changing the password periodically (if required), and safeguarding their password?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "4) Develop Appropriate Awareness and Training Content, Materials, and Methods",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Select topics that may need to be included in the training materials.</li>\n<li>Incorporate new information from email advisories, online IT security daily news Web sites, and periodicals, as is reasonable and appropriate.</li>\n<li>Consider using a variety of media and avenues according to what is appropriate for the organization based on workforce size, location, level of education, etc.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have employees received a copy of, and do they have ready access to, the organization’s security procedures and policies?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do employees know whom to contact and how to handle a security incident?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do employees understand the consequences of noncompliance with the stated security policies?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do employees who travel know how to handle physical laptop security issues and information security issues?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Has the covered entity researched available training resources?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is dedicated training staff available for delivery of security training?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "If not, who will deliver the training?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "What is the security training budget?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "5) Implement the Training",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Schedule and conduct the training outlined in the strategy and plan.</li>\n<li>Implement any reasonable technique to disseminate the security messages in an organization, including newsletters, screensavers, videotapes, email messages, teleconferencing sessions, staff meetings, and computer-based training.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have all employees received adequate training to fulfill their security responsibilities?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are there sanctions if employees do not complete required training?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "6) Implement Security Reminders",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Implement periodic security updates.</li>\n<li>Provide periodic security updates to staff, business associates, and contractors.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "What methods are available or already in use to make or keep employees aware of security, e.g., posters or booklets?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Is security refresher training performed on a periodic basis (e.g., annually)?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is security awareness discussed with all new hires?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Are security topics reinforced during routine staff meetings?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "7) Monitor and Evaluate Training Plan",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Keep the security awareness and training program current.</li>\n<li>Conduct training whenever changes occur in the technology and practices as appropriate.</li>\n<li>Monitor the training program implementation to ensure that all employees participate.</li>\n<li>Implement corrective actions when problems arise.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Are employee training and professional development programs documented and monitored, if reasonable and appropriate?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "How are new employees trained on security?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are new non-employees (e.g., contractors, interns) trained on security?",
+      "choices": []
+    },
+        {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.6: Security Incident Procedures (§ 164.308(a)(6))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "1) Determine Goals of Incident Response",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Gain an understanding as to what constitutes a true security incident. Under the HIPAA Security Rule, a security incident is the attempted or successful unauthorized access, use, disclosure, modification, or destruction of information or interference with system operations in an information system. (45 CFR &sect; 164.304)</li>\n<li>Determine how the organization will respond to a security incident.</li>\n<li>Establish a reporting mechanism and a process to coordinate responses to the security incident.</li>\n<li>Provide direct technical assistance, advise vendors to address product-related problems, and provide liaisons to legal and criminal investigative groups as needed.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Has the HIPAA-required security risk assessment resulted in a list of potential physical or technological events that could result in a breach of security?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there a procedure in place for reporting and handling incidents?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Has an analysis been conducted that relates reasonably anticipated threats and hazards to the organization that could result in a security incident to the methods that would be used for mitigation?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have the key functions of the organization been prioritized to determine what would need to be restored first in the event of a disruption?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Develop and Deploy an Incident Response Team or Other Reasonable and Appropriate Response Mechanism",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<p>Determine if the size, scope, mission, and other aspects of the organization justify the reasonableness and appropriateness of maintaining a standing incident response team.</p>\n<p>Identify appropriate individuals to be a part of a formal incident response team, if the organization has determined that implementing an incident response team is reasonable and appropriate.</p>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do members of the team have adequate knowledge of the organization’s hardware and software?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do members of the team have the authority to speak for the organization to the media, law enforcement, and clients or business partners?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Has the incident response team received appropriate training in incident response activities?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "3) Develop and Implement Procedures to Respond to and Report Security Incidents",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Identify and respond to suspected or known security incidents; mitigate, to the extent practicable, harmful effects of security incidents that are known to the covered entity; and document security incidents and their outcomes.</li>\n<li>Document incident response procedures that can provide a single point of reference to guide the day-to-day operations of the incident response team.</li>\n<li>Review incident response procedures with staff with roles and responsibilities related to incident response, solicit suggestions for improvements, and make changes to reflect input if reasonable and appropriate.</li>\n<li>Update the procedures as required based on changing organizational needs.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Has the organization determined that maintaining a staffed security incident hotline would be reasonable and appropriate?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Has the organization determined reasonable and appropriate mitigation options for security incidents?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Has the organization determined that standard incident report templates to ensure that all necessary information related to the incident is documented and investigated are reasonable and appropriate?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Has the organization determined under what conditions information related to a security breach will be disclosed to the media?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Have appropriate (internal and external) persons who should be informed of a security breach been identified and a contact information list prepared?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Has a written incident response plan been developed and provided to the incident response team?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "4) Incorporate Post-Incident Analysis into Updates and Revisions",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Measure effectiveness and update security incident response procedures to reflect lessons learned, and identify actions to take that will improve security controls after a security incident.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Does the incident response team keep adequate documentation of security incidents and their outcomes, which may include what weaknesses were exploited and how access to information was gained?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Do records reflect new contacts and resources identified for responding to an incident?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Does the organization consider whether current procedures were adequate for responding to a particular security incident?",
+      "choices": []
+    },
+        {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.7: Contingency Plan (§ 164.308(a)(7))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "1) Develop Contingency Planning Policy",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Define the organization&rsquo;s overall contingency objectives.</li>\n<li>Establish the organizational framework, roles, and responsibilities for this area.</li>\n<li>Address scope, resource requirements, training, testing, plan maintenance, and backup requirements.</li>\n<li>A contingency planning methodology, based on NIST SP 800-34, is included in Appendix F of this document.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "MultiChecklist",
+      "text": "What critical services must be provided within specified timeframes?",
+      "choices": [
+        "Patient treatment, for example, may need to be performed without disruption.",
+        "By contrast, claims processing may be delayed during an emergency with no long-term damage to the organization."
+      ]
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Have cross-functional dependencies been identified so as to determine how the failure in one system may negatively impact another one?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Conduct an Applications and Data Criticality Analysis",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Assess the relative criticality of specific applications and data in support of other Contingency Plan components.</li>\n<li>Identify the activities and material involving EPHI that are critical to business operations.</li>\n<li>Identify the critical services or operations, and the manual and automated processes that support them, involving EPHI.</li>\n<li>Determine the amount of time the organization can tolerate disruptions to these operations, material, or services (e.g., due to power outages).</li>\n<li>Establish cost-effective strategies for recovering these critical services or processes.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What hardware, software, and personnel are critical to daily operations?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What is the impact on desired service levels if these critical assets are not available?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What, if any, support is provided by external providers (Internet service providers [ISPs], utilities, or contractors)?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What is the nature and degree of impact on the operation if any of the critical resources are not available?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "3) Identify Preventive Measures",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Identify preventive measures for each defined scenario that could result in loss of a critical service operation involving the use of EPHI.</li>\n<li>Ensure that identified preventive measures are practical and feasible in terms of their applicability in a given environment.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What alternatives for continuing operations of the organization are available in case of loss of any critical function/resource?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What is the cost associated with the preventive measures that may be considered?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Are the preventive measures feasible (affordable and practical for the environment)?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What plans, procedures, or agreements need to be initiated to enable implementation of the preventive measures, if they are necessary?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "4) Develop Recovery Strategy",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Finalize the set of contingency procedures that should be invoked for all identified impacts, including emergency mode operation. The strategy must be adaptable to the existing operating environment and address allowable outage times and associated priorities identified in step 2.</li>\n<li>Ensure, if part of the strategy depends on external organizations for support, that formal agreements are in place with specific requirements stated.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have procedures related to recovery from emergency or disastrous events been documented?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Has a coordinator who manages, maintains, and updates the plan been designated?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Has an emergency call list been distributed to all employees?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have recovery procedures been documented?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Has a determination been made regarding when the plan needs to be activated (anticipated duration of outage, tolerances for outage or loss of capability, impact on service delivery, etc.)?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "5) Data Backup Plan and Disaster Recovery Plan",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Establish and implement procedures to create and maintain retrievable exact copies of EPHI.</li>\n<li>Establish (and implement as needed) procedures to restore any loss of data.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there a formal, written contingency plan?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Does it address disaster recovery and data backup?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do data backup procedures exist?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are responsibilities assigned to conduct backup activities?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Are data backup procedures documented and available to other staff?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "6) Develop and Implement an Emergency Mode Operation Plan",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Establish (and implement as needed) procedures to enable continuation of critical business processes for protection of the security of EPHI while operating in emergency mode.</li>\n<li>&ldquo;Emergency mode&rdquo; operation involves only those critical business processes that must occur to protect the security of EPHI during and immediately after a crisis situation.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have procedures been developed to continue the critical functions identified in Key Activity?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "If so, have those critical functions that also involve the use of EPHI been identified?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Would different staff, facilities, or systems be needed to perform those functions?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Has the security of that EPHI in that alternative mode of operation been assured?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "7) Testing and Revision Procedure",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Implement procedures for periodic testing and revision of contingency plans.</li>\n<li>Test the contingency plan on a predefined cycle (stated in the policy developed under Key Activity), if reasonable and appropriate.</li>\n<li>Train those with defined plan responsibilities on their roles.</li>\n<li>If possible, involve external entities (vendors, alternative site/service providers) in testing exercises.</li>\n<li>Make key decisions regarding how the testing is to occur (&ldquo;tabletop&rdquo; exercise versus staging a real operational scenario including actual loss of capability).</li>\n<li>Decide how to segment the type of testing based on the assessment of business impact and acceptability of sustained loss of service. Consider cost.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "How is the plan to be tested?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Does testing lend itself to a phased approach?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Is it feasible to actually take down functions/services for the purposes of testing?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Can testing be done during normal business hours or must it take place during off hours?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "If full testing is infeasible, has a “tabletop” scenario (e.g., a classroom-like exercise) been considered?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "How frequently is the plan to be tested (e.g., annually)?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "When should the plan be revised?",
+      "choices": []
+    },
+        {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.8: Evaluation (§ 164.308(a)(8))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "1) Determine Whether Internal or External Evaluation Is Most Appropriate",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Decide whether the evaluation will be conducted with internal staff resources or external consultants.</li>\n<li>Engage external expertise to assist the internal evaluation team where additional skills and expertise is determined to be reasonable and appropriate.</li>\n<li>Use internal resources to supplement an external source of help, because these internal resources can provide the best institutional knowledge and history of internal policies and practices.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Which staff has the technical experience and expertise to evaluate the systems?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "How much training will staff need on security-related technical and nontechnical issues?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "If an outside vendor is used, what factors should be considered when selecting the vendor, such as credentials and experience?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "What is the budget for internal resources to assist with an evaluation?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "What is the budget for external services to assist with an evaluation?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Develop Standards and Measurements for Reviewing All Standards and Implementation Specifications of the Security Rule",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Use an evaluation strategy and tool that considers all elements of the HIPAA Security Rule and can be tracked, such as a questionnaire or checklist.</li>\n<li>Implement tools that can provide reports on the level of compliance, integration, or maturity of a particular security safeguard deployed to protect EPHI.</li>\n<li>If available, consider engaging corporate, legal, or regulatory compliance staff when conducting the analysis.</li>\n<li>Leverage any existing reports or documentation that may already be prepared by the organization addressing compliance, integration, or maturity of a particular security safeguard deployed to protect EPHI.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Have management, operational, and technical issues been considered?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Do the elements of each evaluation procedure (questions, statements, or other components) address individual, measurable security safeguards for EPHI?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Has the organization determined that the procedure must be tested in a few areas or systems?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Does the evaluation tool consider all standards and implementation specifications of the HIPAA Security Rule?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "3) Conduct Evaluation",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Determine, in advance, what departments and/or staff will participate in the evaluation.</li>\n<li>Secure management support for the evaluation process to ensure participation.</li>\n<li>Collect and document all needed information. Collection methods may include the use of interviews, surveys, and outputs of automated tools, such as access control auditing tools, system logs, and results of penetration testing.</li>\n<li>Conduct penetration testing (where trusted insiders attempt to compromise system security for the sole purpose of testing the effectiveness of security controls), if reasonable and appropriate.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "If available, have staff members with knowledge of IT security been consulted and included in the evaluation team?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "If penetration testing has been determined to be reasonable and appropriate, has specifically worded, written approval from senior management been received for any planned penetration testing?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Has the process been formally communicated to those who have been assigned roles and responsibilities in the evaluation process?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Has the organization explored the use of automated tools to support the evaluation process?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Has the organization employed automated tools to support the evaluation process?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "4) Document Results",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Document each evaluation finding, remediation options and recommendations, and remediation decisions.</li>\n<li>Document known gaps between identified risks and mitigating security controls, and any acceptance of risk, including justification.</li>\n<li>Develop security program priorities and establish targets for continuous improvement.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Does the process support development of security recommendations?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "In determining how best to display evaluation results, have written reports that highlight key findings and recommendations been considered?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "If a written final report is to be circulated among key staff, have steps been taken to ensure that it is made available only to those persons designated to receive it?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "5) Repeat Evaluations Periodically",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Establish the frequency of evaluations, taking into account the sensitivity of the EPHI controlled by the organization, its size, complexity, and environmental and/or operational changes (e.g., other relevant laws or accreditation requirements).</li>\n<li>In addition to periodic reevaluations, consider repeating evaluations when environmental and operational changes are made to the organization that affects the security of EPHI (e.g., if new technology is adopted or if there are newly recognized risks to the security of the information).</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Do security policies specify that evaluations will be repeated when environmental and operational changes are made that affect the security of EPHI?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Do policies on frequency of security evaluations reflect any and all relevant federal or state laws which bear on environmental or operational changes affecting the security of EPHI?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Has the organization explored the use of automated tools to support periodic evaluations?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Has the organization employed automated tools to support periodic evaluations?",
+      "choices": []
+    },
+        {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.9: Business Associate Contracts and Other Arrangements (§ 164.308(b)(1))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "1) Identify Entities that Are Business Associates under the HIPAA Security Rule",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Identify the individual or department who will be responsible for coordinating the execution of business associate agreements or other arrangements.</li>\n<li>Reevaluate the list of business associates to determine who has access to EPHI in order to assess whether the list is complete and current.</li>\n<li>Identify systems covered by the contract/agreement.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Do the business associate agreements written and executed contain sufficient language to ensure that required information types will be protected?",
+      "choices": []
+    },
+    {
+      "type": "MultiChecklist",
+      "text": "Are there any new organizations or vendors that now provide a service or function on behalf of the organization? Such services may include the following:",
+      "choices": [
+        "Claims processing or billing",
+        "Data analysis",
+        "Utilization review",
+        "Quality assurance",
+        "Benefit management",
+        "Practice management",
+        "REpricing",
+        "Hardware maintenance",
+        "All other HIPAA-regulated functions"
+      ]
+    },
+    {
+      "type": "MultiChecklist",
+      "text": "Have outsourced functions involving the use of EPHI been considered, such as the following:",
+      "choices": [
+        "Data aggregation",
+        "Administrative services",
+        "Accreditation",
+        "Financial services"
+      ]
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Written Contract or Other Arrangement",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Document the satisfactory assurances required by this standard through a written contract or other arrangement with the business associate that meets the applicable requirements of &sect;164.314(a).58</li>\n<li>Execute new or update existing agreements or arrangements as appropriate.</li>\n<li>Identify roles and responsibilities.</li>\n<li>Include security requirements in business associate contracts/agreements to address confidentiality, integrity, and availability of EPHI.</li>\n<li>Specify any training requirements associated with the contract/agreement or arrangement, if reasonable and appropriate.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Who is responsible for coordinating and preparing the final agreement or arrangement?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Does the agreement or arrangement specify how information is to be transmitted to and from the business associate?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have security controls been specified for the business associate?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "3) Establish Process for Measuring Contract Performance and Terminating the Contract if Security Requirements Are Not Being Met",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Maintain clear lines of communication.</li>\n<li>Conduct periodic security reviews.</li>\n<li>Establish criteria for measuring contract performance.</li>\n<li>If the business associate is a governmental entity, update the memorandum of understanding or other arrangement when required by law or regulation or when reasonable and appropriate.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What is the service being performed?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What is the outcome expected?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there a process for reporting security incidents related to the agreement?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there a process in place to periodically evaluate the effectiveness of business associate security controls?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Is there a process in place for terminating the contract if requirements are not being met and has the business associate been advised what conditions would warrant termination?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "4) Implement An Arrangement Other than a Business Associate Contract if Reasonable and Appropriate",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>If the covered entity and its business associate are both governmental entities, use a memorandum of understanding or reliance on law or regulation that requires equivalent actions on the part of the business associate.</li>\n<li>Document the law, regulation, memorandum, or other document that assures that the governmental entity business associate will implement all required safeguards for EPHI involved in transactions between the parties.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Is the covered entity’s business associate a federal, state, or local governmental entity?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there a usual procedure for creating memoranda of understanding between the parties?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Has the covered entity researched and reviewed all law and regulation governing the use of EPHI by the governmental entity business associate?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "PHYSICAL SAFEGUARDS",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.10: Facility Access Controls (§ 164.310(a)(1))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "1) Conduct an Analysis of Existing Physical Security Vulnerabilities",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Inventory facilities and identify shortfalls and/or vulnerabilities in current physical security capabilities.</li>\n<li>Assign degrees of significance to each vulnerability identified and ensure that proper access is allowed.</li>\n<li>Determine which types of facilities require access controls to safeguard EPHI, such as:\n<ul>\n<li>Data Centers</li>\n<li>Peripheral equipment locations</li>\n<li>IT staff offices</li>\n<li>Workstation locations.</li>\n</ul>\n</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "If reasonable and appropriate, do nonpublic areas have locks and cameras?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are workstations protected from public access or viewing?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are entrances and exits that lead to locations with EPHI secured?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do policies and procedures already exist regarding access to and use of facilities and equipment?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are there possible natural or man-made disasters that could happen in our environment?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do normal physical protections exist (locks on doors, windows, etc., and other means of preventing unauthorized access)?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Identify Corrective Measures",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Identify and assign responsibility for the measures and activities necessary to correct deficiencies and ensure that proper access is allowed.</li>\n<li>Develop and deploy policies and procedures to ensure that repairs, upgrades, and /or modifications are made to the appropriate physical areas of the facility while ensuring that proper access is allowed.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Who is responsible for security?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Is a workforce member other than the security official responsible for facility/physical security?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Are facility access control policies and procedures already in place? Do they need to be revised?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What training will be needed for employees to understand the policies and procedures?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "How will we document the decisions and actions?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Are we dependent on a landlord to make physical changes to meet the requirements?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "3) Develop a Facility Security Plan",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Implement policies and procedures to safeguard the facility and the equipment therein from unauthorized physical access, tampering, and theft.</li>\n<li>Implement appropriate measures to provide physical security protection for EPHI in a covered entity&rsquo;s possession.</li>\n<li>Include documentation of the facility inventory, as well as information regarding the physical maintenance records and the history of changes, upgrades, and other modifications.</li>\n<li>Identify points of access to the facility and existing security controls.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there an inventory of facilities and existing security practices?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What are the current procedures for securing the facilities (exterior, interior, equipment, access controls, maintenance records, etc.)?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is a workforce member other than the security official responsible for the facility plan?",
+      "choices": []
+    },
+    {
+      "type": "MultiChecklist",
+      "text": "Is there a contingency plan?",
+      "choices": [
+        "Already in place",
+        "Under revision",
+        "Under development"
+      ]
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "4) Develop Access Control and Validation Procedures",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Implement procedures to control and validate a person's access to facilities based on their role or function, including visitor control, and control of access to software programs for testing and revision.</li>\n<li>Implement procedures to provide facility access to authorized personnel and visitors, and exclude unauthorized persons.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What are the policies and procedures in place for controlling access by staff, contractors, visitors, and probationary employees?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "How many access points exist in each facility? Is there an inventory?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is monitoring equipment necessary?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "5) Establish Contingency Operations Procedures",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Establish (and implement as needed) procedures that allow facility access in support of restoration of lost data under the Disaster Recovery Plan and Emergency Mode Operations Plan in the event of an emergency.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Who needs access to EPHI in the event of a disaster?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "What is the backup plan for access to the facility and/or EPHI?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Who is responsible for the contingency plan for access to EPHI?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Who is responsible for implementing the contingency plan for access to EPHI in each department, unit, etc.?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Will the contingency plan be appropriate in the event of all types of potential disasters (fire, flood, earthquake, etc.)?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "6) Maintain Maintenance Records",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Implement policies and procedures to document repairs and modifications to the physical components of a facility which are related to security (for example, hardware, walls, doors and locks).</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are records of repairs to hardware, walls, doors, and locks maintained?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Has responsibility for maintaining these records been assigned?",
+      "choices": []
+    },
+        {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.11: Workstation Use (§ 164.310(b))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "1) Identify Workstation Types and Functions or Uses",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Inventory workstations and devices.</li>\n<li>Develop policies and procedures for each type of workstation and workstation device, identifying and accommodating their unique issues.</li>\n<li>Classify workstations based on the capabilities, connections, and allowable activities for each workstation used.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do we have an inventory of workstation types and locations in my organization?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Who is responsible for this inventory and its maintenance?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What tasks are commonly performed on a given workstation or type of workstation?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are all types of computing devices used as workstations identified along with the use of these workstations?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Identify Expected Performance of Each Type of Workstation",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Develop and document policies and procedures related to the proper use and performance of workstations.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "How are workstations used in day-to-day operations?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What are key operational risks that could result in a breach of security?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "3) Analyze Physical Surroundings for Physical Attributes",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Ensure that any risks associated with a workstation&rsquo;s surroundings are known and analyzed for possible negative impacts.</li>\n<li>Develop policies and procedures that will prevent or preclude unauthorized access of unattended workstations, limit the ability of unauthorized persons to view sensitive information, and dispose of sensitive information as needed.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Where are workstations located?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is viewing by unauthorized individuals restricted or limited at these workstations?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do changes need to be made in the space configuration?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do employees understand the security requirements for the data they use in their day-to-day jobs?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.12: Workstation Security (§ 164.310(c))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "1) Identify All Methods of Physical Access to Workstations",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Document the different ways workstations are accessed by employees and nonemployees.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there an inventory of all current workstation locations?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are any workstations located in public areas?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are laptops used as workstations?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Analyze the Risk Associated with Each Type of Access",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Determine which type of access holds the greatest threat to security.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Are any workstations in areas that are more vulnerable to unauthorized use, theft, or viewing of the data they contain?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What are the options for making modifications to the current access configuration?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "3) Identify and Implement Physical Safeguards for Workstations",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Implement physical safeguards and other security measures to minimize the possibility of inappropriate access to EPHI through workstations.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What safeguards are in place, i.e., locked doors, screen barriers, cameras, guards?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do any workstations need to be relocated to enhance physical security?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have employees been trained on security?",
+      "choices": []
+    },
+        {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.13: Device and Media Controls (§ 164.310(d)(1))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "1) Implement Methods for Final Disposal of EPHI",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Implement policies and procedures to address the final disposition of EPHI and/or the hardware or electronic media on which it is stored.</li>\n<li>Determine and document the appropriate methods to dispose of hardware, software, and the data itself.</li>\n<li>Assure that EPHI is properly destroyed and cannot be recreated.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What data is maintained by the organization, and where?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Is data on removable, reusable media such as tapes and CDs?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there a process for destroying data on hard drives and file servers?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What are the options for disposing of data on hardware? What are the costs?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Develop and Implement Procedures for Reuse of Electronic Media",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Implement procedures for removal of EPHI from electronic media before the media are made available for reuse.</li>\n<li>Ensure that EPHI previously stored on electronic media cannot be accessed and reused.</li>\n<li>Identify removable media and their use.</li>\n<li>Ensure that EPHI is removed from reusable media before they are used to record new information.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Do policies and procedures already exist regarding reuse of electronic media (hardware and software)?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Is one individual and/or department responsible for coordinating the disposal of data and the reuse of the hardware and software?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are employees appropriately trained on security and risks to EPHI when reusing software and hardware?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "3) Maintain Accountability for Hardware and Electronic Media",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Maintain a record of the movements of hardware and electronic media and any person responsible therefore.</li>\n<li>Ensure that EPHI is not inadvertently released or shared with any unauthorized party.</li>\n<li>Ensure that an individual is responsible for, and records the receipt and removal of, hardware and software with EPHI.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Where is data stored (what type of media)?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What procedures already exist regarding tracking of hardware and software within the company?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "If workforce members are allowed to remove electronic media that contain or may be used to access EPHI, do procedures exist to track the media externally?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Who is responsible for maintaining records of hardware and software?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "4) Develop Data Backup and Storage Procedures",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Create a retrievable exact copy of EPHI, when needed, before movement of equipment.</li>\n<li>Ensure that an exact retrievable copy of the data is retained and protected to protect the integrity of EPHI during equipment relocation.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Are backup files maintained offsite to assure data availability in the event data is lost while transporting or moving electronic media containing EPHI?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "If data were to be unavailable while media are transported or moved for a period of time, what would the business impact be?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "TECHNICAL SAFEGUARDS",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.14: Access Control (§ 164.312(a)(1))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "1) Analyze Workloads and Operations To Identify the Access Needs of All Users",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Identify an approach for access control.</li>\n<li>Consider all applications and systems containing EPHI that should be available only to authorized users.</li>\n<li>Integrate these activities into the access granting and management process.78</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have all applications/systems with EPHI been identified?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What user roles are defined for those applications/systems?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Where is the EPHI supporting those applications/systems currently housed (e.g., stand-alone PC, network)?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are data and/or systems being accessed remotely?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Identify Technical Access Control Capabilities",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Determine the access control capability of all information systems with EPHI.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "How are the systems accessed (viewing data, modifying data, creating data)?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "3) Ensure that All System Users Have Been Assigned a Unique Identifier",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Assign a unique name and/or number for identifying and tracking user identity.</li>\n<li>Ensure that system activity can be traced to a specific user.</li>\n<li>Ensure that the necessary data is available in the system logs to support audit and other related business functions.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "How should the identifier be established (length and content)?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Should the identifier be self-selected or randomly generated?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "4) Develop Access Control Policy",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Establish a formal policy for access control that will guide the development of procedures.</li>\n<li>Specify requirements for access control that are both feasible and cost-effective for implementation.82</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have rules of behavior been established and communicated to system users?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "How will rules of behavior be enforced?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "5) Implement Access Control Procedures Using Selected Hardware and Software",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Implement the policy and procedures using existing or additional hardware/software solution(s).</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Who will manage the access controls procedures?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are current users trained in access control management?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Will user training be needed to implement access control procedures?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "6) Review and Update User Access",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Enforce policy and procedures as a matter of ongoing operations.</li>\n<li>Determine if any changes are needed for access control mechanisms.</li>\n<li>Establish procedures for updating access when users require the following:\n<ul>\n<li>Initial access</li>\n<li>Increased access</li>\n<li>Access to different systems or applications than those they currently have</li>\n</ul>\n</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have new employees/users been given proper instructions for protecting data and systems?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What are the procedures for new employee/user access to data and systems?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Are there procedures for reviewing and, if appropriate, modifying access authorizations for existing users?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "7) Establish an Emergency Access Procedure",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Establish (and implement as needed) procedures for obtaining necessary electronic protected health information during an emergency.</li>\n<li>Identify a method of supporting continuity of operations should the normal access procedures be disabled or unavailable due to system problems.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "When should the emergency access procedure be activated?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Who is authorized to make the decision?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Who has assigned roles in the process?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Will systems automatically default to settings and functionalities that will enable the emergency access procedure or will the mode be activated by the system administrator or other authorized individual?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "8) Automatic Logoff and Encryption and Decryption",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Consider whether the addressable implementation specifications of this standard are reasonable and appropriate:\n<ul>\n<li>Implement electronic procedures that terminate an electronic session after a predetermined time of inactivity.</li>\n<li>Implement a mechanism to encrypt and decrypt EPHI.</li>\n</ul>\n</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are automatic logoff features available for any of the covered entity’s operating systems or other major applications?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "If applications have been created or developed in-house, is it reasonable and appropriate to modify them to feature automatic logoff capability?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "What period of inactivity prior to automatic logoff is reasonable and appropriate for the covered entity?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What encryption systems are available for the covered entity’s EPHI?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is encryption appropriate for storing and maintaining EPHI (“at rest”), as well as while it is transmitted?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "9) Terminate Access if it is No Longer Required",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Ensure that access to EPHI is terminated if the access is no longer authorized.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are rules being enforced to remove access by staff members who no longer have a need to know because they have changed assignments or have stopped working for the organization?",
+      "choices": []
+    },
+        {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.15: Audit Controls (§ 164.312(b))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "1) Determine the Activities that Will Be Tracked or Audited",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Determine the appropriate scope of audit controls that will be necessary in information systems that contain or use EPHI based on the covered entity&rsquo;s risk assessment and other organizational factors.</li>\n<li>Determine what data needs to be captured.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Where is EPHI at risk in the organization?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What systems, applications, or processes make data vulnerable to unauthorized or inappropriate tampering, uses, or disclosures?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What activities will be monitored (e.g., creation, reading, updating, and/or deleting of files or records containing EPHI)?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What should the audit record include (e.g., user ID, event type/date/time)?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Select the Tools that Will Be Deployed for Auditing and System Activity Reviews",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Evaluate existing system capabilities and determine if any changes or upgrades are necessary.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What tools are in place?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What are the most appropriate monitoring tools for the organization (third party, freeware, or operating system-provided)?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are changes/upgrades to information systems reasonable and appropriate?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "3) Develop and Deploy the Information System Activity Review/Audit Policy",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Document and communicate to the workforce the facts about the organization&rsquo;s decisions on audits and reviews.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Who is responsible for the overall audit process and results?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "How often will audits take place?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "How often will audit results be analyzed?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What is the organization’s sanction policy for employee violations?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Where will audit information reside (i.e., separate server)?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "4) Develop Appropriate Standard Operating Procedures",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Determine the types of audit trail data and monitoring procedures that will be needed to derive exception reports.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "How will exception reports or logs be reviewed?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Where will monitoring reports be filed and maintained?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Is there a formal process in place to address system misuse, abuse, and fraudulent activity?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "How will managers and employees be notified, when appropriate, regarding suspect activity?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "5) Implement the Audit/System Activity Review Process",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Activate the necessary audit system.</li>\n<li>Begin logging and auditing procedures.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What mechanisms will be implemented to assess the effectiveness of the audit process (metrics)?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What is the plan to revise the audit process when needed?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.16: Integrity (§ 164.312(c)(1))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "1) Identify All Users Who Have Been Authorized to Access EPHI",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Identify all approved users with the ability to alter or destroy data, if reasonable and appropriate.</li>\n<li>Address this Key Activity in conjunction with the identification of unauthorized sources in Key Activity 2, below.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "How are users authorized to access the information?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there a sound basis established as to why they need the access?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have they been trained on how to use the information?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there an audit trail established for all accesses to the information?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Identify Any Possible Unauthorized Sources that May Be Able to Intercept the Information and Modify It",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Identify scenarios that may result in modification to the EPHI by unauthorized sources (e.g., hackers, disgruntled employees, business competitors).</li>\n<li>Conduct this activity as part of your risk analysis.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What are likely sources that could jeopardize information integrity?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What can be done to protect the integrity of the information when it is residing in a system (at rest)?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What procedures and policies can be established to decrease or eliminate alteration of the information during transmission (e.g., encryption)?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "3) Develop the Integrity Policy and Requirements",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Establish a formal (written) set of integrity requirements based on the results of the analysis completed in the previous steps.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have the requirements been discussed and agreed to by identified key personnel involved in the processes that are affected?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have the requirements been documented?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Has a written policy been developed and communicated to system users?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "4) Implement Procedures to Address These Requirements",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Identify and implement methods that will be used to protect the information from modification.</li>\n<li>Identify and implement tools and techniques to be developed or procured that support the assurance of integrity.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are current audit, logging, and access control techniques sufficient to address the integrity of the information?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "If not, what additional techniques can we apply to check information integrity (e.g., quality control process, transaction and output reconstruction)?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Can additional training of users decrease instances attributable to human errors?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "5) Implement a Mechanism to Authenticate EPHI",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Implement electronic mechanisms to corroborate that EPHI has not been altered or destroyed in an unauthorized manner.</li>\n<li>Consider possible electronic mechanisms for authentication such as:\n<ul>\n<li>Error-correcting memory</li>\n<li>Magnetic disk storage</li>\n<li>Digital signatures</li>\n<li>Check sum technology.</li>\n</ul>\n</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are the uses of both electronic and nonelectronic mechanisms necessary for the protection of EPHI?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are appropriate electronic authentication tools available?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are available electronic authentication tools interoperable with other applications and system components?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "6) Establish a Monitoring Process To Assess How the Implemented Process Is Working",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Review existing processes to determine if objectives are being addressed.</li>\n<li>Reassess integrity processes continually as technology and operational environments change to determine if they need to be revised.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Are there reported instances of information integrity problems and have they decreased since integrity procedures have been implemented?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Does the process, as implemented, provide a higher level of assurance that information integrity is being maintained?",
+      "choices": []
+    },
+        {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.17: Person or Entity Authentication (§ 164.312(d))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "1) Determine Authentication Applicability to Current Systems/Applications",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Identify methods available for authentication. Under the HIPAA Security Rule, authentication is the corroboration that a person is the one claimed. (45 CFR &sect; 164.304).</li>\n<li>Authentication requires establishing the validity of a transmission source and/or verifying an individual&rsquo;s claim that he or she has been authorized for specific access privileges to information and information systems.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What authentication methods are available?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What are the advantages and disadvantages of each method?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What will it cost to implement the available methods in our environment?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Do we have trained staff who can maintain the system or do we need to consider outsourcing some of the support?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are passwords being used?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "If so, are they unique by individual?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Evaluate Authentication Options Available",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Weigh the relative advantages and disadvantages of commonly used authentication approaches.</li>\n<li>There are four commonly used authentication approaches available:\n<ul>\n<li>Something a person knows, such as a password,</li>\n<li>Something a person has or is in possession of, such as a token (smart card, ATM card, etc.),</li>\n<li>Some type of biometric identification a person provides, such as a fingerprint, or</li>\n<li>A combination of two or more of the above approaches.</li>\n</ul>\n</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What are the strengths and weaknesses of each available option?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Which can be best supported with assigned resources (budget/staffing)?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What level of authentication is appropriate based on our assessment of risk to the information/systems?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do we need to acquire outside vendor support to implement the process?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "3) Select and Implement Authentication Option",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Consider the results of the analysis conducted under Key Activity 2, above, and select appropriate authentication methods.</li>\n<li>Implement the methods selected into your operations and activities.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Has necessary user and support staff training been completed?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have formal authentication policy and procedures been established and communicated?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Has necessary testing been completed to ensure that the authentication system is working as prescribed?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do the procedures include ongoing system maintenance and updates?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is the process implemented in such a way that it does not compromise the authentication information (password file encryption, etc.)?",
+      "choices": []
+    },    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.18: Transmission Security (§ 164.312(e)(1))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "1) Identify Any Possible Unauthorized Sources that May Be Able to Intercept and/or Modify the Information",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Identify scenarios that may result in modification of the EPHI by unauthorized sources during transmission (e.g., hackers, disgruntled employees, business competitors).</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What measures exist to protect EPHI in transmission?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there an auditing process in place to verify that EPHI has been protected against unauthorized access during transmission?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are there trained staff members to monitor transmissions?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Develop and Implement Transmission Security Policy and Procedures",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Establish a formal (written) set of requirements for transmitting EPHI.</li>\n<li>Identify methods of transmission that will be used to safeguard EPHI.</li>\n<li>Identify tools and techniques that will be used to support the transmission security policy.</li>\n<li>Implement procedures for transmitting EPHI using hardware and/or software, if needed.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have the requirements been discussed and agreed to by identified key personnel involved in transmitting EPHI?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Has a written policy been developed and communicated to system users?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "3) Implement Integrity Controls",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Implement security measures to ensure that electronically transmitted EPHI is not improperly modified without detection until disposed of.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What measures are planned to protect EPHI in transmission?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there assurance that information is not altered during transmission?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "4) Implement Encryption",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Implement a mechanism to encrypt EPHI whenever deemed appropriate.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is encryption reasonable and appropriate for EPHI in transmission?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is encryption needed to effectively protect the information?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is encryption feasible and cost-effective in this environment?",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "What encryption algorithms and mechanisms are available?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Does the covered entity have the appropriate staff to maintain a process for encrypting EPHI during transmission?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are staff members skilled in the use of encryption?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "ORGANIZATIONAL REQUIREMENTS",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.19: Business Associate Contracts or Other Arrangements (§ 164.314(a)(1))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "1) Contract Must Provide that Business Associates Adequately Protect EPHI",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Contracts between covered entities and business associates must provide that business associates will implement administrative, physical, and technical safeguards that reasonably and appropriately protect the confidentiality, integrity, and availability of the EPHI that the business associate creates, receives, maintains, or transmits on behalf of the covered entity.</li>\n<li>May consider asking the business associate to conduct a risk assessment that addresses administrative, technical, and physical risks, if reasonable and appropriate.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Does the written agreement between the covered entity and the business associate address the applicable functions related to creating, receiving, maintaining, and transmitting EPHI that the business associate is to perform on behalf of the covered entity?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Contract Must Provide that Business Associate’s Agents Adequately Protect EPHI",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Contracts between covered entities and business associates must provide that any agent, including a subcontractor, to whom the business associate provides such information agrees to implement reasonable and appropriate safeguards to protect it;</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Does the written agreement address the issue of EPHI access by subcontractors and other agents of the business associate?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "3) Contract Must Provide that Business Associates will Report Security Incidents",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Contracts between covered entities and business associates must provide that business associates will report to the covered entity any security incident of which it becomes aware.</li>\n<li>Establish a reporting mechanism and a process for the business associate to use in the event of a security incident.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there a procedure in place for reporting of incidents by business associates?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have key business associate staff that would be the point of contact in the event of a security incident been identified?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "4) Contract Must Provide that Business Associate Will Authorize Termination of the Contract if it has been Materially Breached",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Contracts between covered entities and business associates must provide that the business associate will authorize termination of the contract by the covered entity if the covered entity determines that the business associate has violated a material term of the contract.</li>\n<li>Establish in the written agreement with business associates the circumstances under which a violation of agreements relating to the security of EPHI constitutes a material breach of the contract.</li>\n<li>Terminate the contract if:\n<ul>\n<li>the covered entity learns that the business associate has violated the contract or materially breached it, and</li>\n<li>It is not possible to take reasonable steps to cure the breach or end the violation, as applicable.</li>\n</ul>\n</li>\n<li>If terminating the contract is not feasible, report the problem to the Secretary of HHS.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Have standards and thresholds for termination of the contract been included in the contract?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "5) Government Entities May Satisfy Business Associate Contract Requirements through Other Arrangements",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>If the covered entity and business associate are both governmental entities, consult &sect; 164.314 (a)(2)(ii) of the Security Rule.</li>\n<li>If both entities are governmental entities, the covered entity is in compliance with &sect; 164.314 (a)(1) if:\n<ul>\n<li>It executes a Memorandum of Understanding (MOU) with the business associate that contains terms that accomplish the objectives of &sect; 164.314(a)(2)(i), or</li>\n<li>Other law (including regulations adopted by the covered entity or its business associate) contains requirements applicable to the business associate that accomplish the objectives of &sect; 164.314(a)(2)(i).</li>\n</ul>\n</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do the arrangements provide protections for EPHI equivalent to those provided by the organization’s business associate contracts?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "If termination of the MOU is not possible due to the nature of the relationship between the covered entity and the business associate, are other mechanisms for enforcement available, reasonable, and appropriate?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "6) Other Arrangements for Covered Entities and Business Associates.",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>If a business associate is required by law to perform a function or activity on behalf of a covered entity or to provide a service described in the definition of business associate as specified in &sect;160.103 to a covered entity, the covered entity may permit the business associate to create, receive, maintain, or transmit electronic protected health information on its behalf to the extent necessary to comply with the legal mandate without meeting the requirements of &sect; 164.314(a)(2)(i), provided that the covered entity attempts in good faith to obtain satisfactory assurances as required by &sect; 164.314(a)(2)(ii)(A), and documents the attempt and the reasons that these assurances cannot be obtained.</li>\n<li>The covered entity may omit from its other arrangements authorization of the termination of the contract by the covered entity, as required by &sect; 164.314(a)(2)(i)(D), if such authorization is inconsistent with the statutory obligations of the covered entity or its business associate.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Has the covered entity made a good faith attempt to obtain satisfactory assurances that the security standards required by this section are met?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are attempts to obtain satisfactory assurances and the reasons assurances cannot be obtained documented?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Does the covered entity or its business associate have statutory obligations which require removal of the authorization of termination requirement?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.20: Requirements for Group Health Plans (§ 164.314(b)(1))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "1) Amend Plan Documents of Group Health Plan to Address Plan Sponsor’s Security of EPHI",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Amend plan documents to incorporate provisions to require the plan sponsor (e.g., an entity that sponsors a health plan) to implement administrative, technical, and physical safeguards that will reasonably and appropriately protect the confidentiality, integrity, and availability of EPHI that it creates, receives, maintains, or transmits on behalf of the group health plan.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Does the plan sponsor fall under the exception described in the standard?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do the plan documents require the plan sponsor to reasonably and appropriately safeguard EPHI?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Amend Plan Documents of Group Health Plan to Address Adequate Separation",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Amend plan documents to ensure that the adequate separation between the group health plan and plan sponsor required by &sect;164.504(f)(2)(iii) is supported by reasonable and appropriate security measures.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do plan documents address the obligation to keep EPHI secure with respect to the plan sponsor’s employees, classes of employees, or other persons who will be given access to EPHI?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "3) Amend Plan Documents of Group Health Plan to Address Security of EPHI Supplied to Plan Sponsors’ Agents and Subcontractors",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Amend plan documents to incorporate provisions to require the plan sponsor to ensure that any agent, including a subcontractor, to whom it provides EPHI agrees to implement reasonable and appropriate security measures to protect the EPHI.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Do the plan documents of the group health plan address the issue of subcontractors and other agents of the plan sponsor implementing reasonable and appropriate security measures?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "4) Amend Plan Documents of Group Health Plans to Address Reporting of Security Incidents",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Amend plan documents to incorporate provisions to require the plan sponsor to report to the group health plan any security incident of which it becomes aware.</li>\n<li>Establish specific policy for security incident reporting.</li>\n<li>Establish a reporting mechanism and a process for the plan sponsor to use in the event of a security incident.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there a procedure in place for security incident reporting?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are procedures in place for responding to security incidents?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "POLICIES AND PROCEDURES AND DOCUMENTATION REQUIREMENTS",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.21: Policies and Procedures (§ 164.316(a))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "1) Create and Deploy Policies and Procedures",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Implement reasonable and appropriate policies and procedures to comply with the standards, implementation specifications, and other requirements of the HIPAA Security Rule.</li>\n<li>Periodically evaluate written policies and procedures to verify that:116\n<ul>\n<li>Policies and procedures are sufficient to address the standards, implementation specifications, and other requirements of the HIPAA Security Rule.</li>\n<li>Policies and procedures accurately reflect the actual activities and practices exhibited by the covered entity, its staff, its systems, and its business associates.</li>\n</ul>\n</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are reasonable and appropriate policies and procedures to comply with the standards, implementation specifications, and other requirements of the HIPAA Security Rule in place?",
+      "choices": []
+    },
+    {
+      "type": "MultiChecklist",
+      "text": "Are policies and procedures reasonable and appropriate given:",
+      "choices": [
+        "the size, complexity, and capabilities of the covered entity;",
+        "the covered entity’s technical infrastructure, hardware, and software security capabilities;",
+        "the costs for security measures; and",
+        "the probability and criticality of potential risks to EPHI",
+        ""
+      ]
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Do procedures exist for periodically reevaluating the policies and procedures, updating them as necessary?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Update Documentation of Policy and Procedures",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Change policies and procedures as is reasonable and appropriate, at any time, provided that the changes are documented and implemented in accordance with the requirements of the HIPAA Security Rule.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Should HIPAA documentation be updated in response to periodic evaluations, following security incidents, and/or after acquisitions of new technology or new procedures? As policies and procedures are changed, are new versions made available and are workforce members appropriately trained?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "HIPAA: NIST 800-66: 4.22: Documentation (§ 164.316(b)(1))",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "Draft, Maintain and Update Required Documentation",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<ul>\n<li>Document the decisions concerning the management, operational, and technical controls selected to mitigate identified risks.</li>\n<li>Written documentation may be incorporated into existing manuals, policies, and other documents, or may be created specifically for the purpose of demonstrating compliance with the HIPAA Security Rule.</li>\n</ul>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Are all required policies and procedures documented?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Should HIPAA Security Rule documentation be maintained by the individual responsible for HIPAA Security implementation? Why?",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Should HIPAA Security documentation be updated in response to periodic evaluations, following security incidents, and/or after acquisitions of new technology or new procedures?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "2) Retain Documentation for at Least Six Years",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<p>Retain required documentation of policies, procedures, actions, activities or assessments required by the HIPAA Security Rule for six years from the date of its creation or the date when it last was in effect, whichever is later.</p>",
+      "choices": []
+    },
+    {
+      "type": "ShortAnswer",
+      "text": "Have documentation retention requirements under HIPAA been aligned with the organization’s other data retention policies? Describe.",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "3) Assure that Documentation is Available to those Responsible for Implementation",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<p>Make documentation available to those persons responsible for implementing the procedures to which the documentation pertains.</p>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is the location of documentation known to all staff that needs to access it?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is availability of the documentation made known as part of education, training and awareness activities?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "4) Update Documentation as Required",
+      "choices": []
+    },
+    {
+      "type": "Paragraph",
+      "text": "<p>Review documentation periodically, and update as needed, in response to environmental or operational changes affecting the security of the EPHI.</p>",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there a version control procedure that allows verification of the timeliness of policies and procedures, if reasonable and appropriate?",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "Is there a process for soliciting input into updates of policies and procedures from staff, if reasonable and appropriate?",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "EVALUATOR'S NOTES",
+      "choices": []
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Include any other notes relevant to this evaluation (optional).",
+      "choices": []
+    }
+
+  ]
+}

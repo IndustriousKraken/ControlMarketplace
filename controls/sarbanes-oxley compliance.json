@@ -1,0 +1,354 @@
+{
+  "name": "Sarbanes Oxley Compliance",
+  "items": [
+    {
+      "type": "Paragraph",
+      "text": "This checklist draws from Sarbanes-Oxley sections 302 and 404. Use it to perform a periodic review to ensure that compliance measures are in place and in use within the organization. At the conclusion of the audit, the SOX officer should sign off indicating that he/she has verified the information.",
+      "choices": [
+        ""
+      ]
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "Establishing safeguards to prevent data tampering. Section 302.2",
+      "choices": [
+        ""
+      ]
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "An ERP system or GRC software is in place, which tracks user logins and access to all computers containing sensitive data.",
+      "choices": [
+        "Yes",
+        " No"
+      ]
+    },
+    {
+      "type": "YesNo",
+      "text": "The systems in place are designed to detect break-in attempts to the organization's computers, databases, fixed and removable storage, and websites.",
+      "choices": [
+        "Yes",
+        " No"
+      ]
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Notes on ERP system or GRC software:",
+      "choices": [
+        ""
+      ]
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "Establish safeguards to accurate timeline data. Section 302.3",
+      "choices": [
+        ""
+      ]
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "The ERP system or GRC software timestamps, in real-time, all data received.",
+      "choices": [
+        "Yes",
+        " No"
+      ]
+    },
+    {
+      "type": "YesNo",
+      "text": "Data is stored in a remote location as soon as received, thereby preventing alteration or loss.",
+      "choices": [
+        "Yes",
+        " No"
+      ]
+    },
+    {
+      "type": "YesNo",
+      "text": "Log information is moved to a secure location and an encrypted checksum is created, thereby preventing any tampering.",
+      "choices": [
+        "Yes",
+        " No"
+      ]
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Notes on data safeguards and timestamps:",
+      "choices": [
+        ""
+      ]
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "Establish verifiable controls to track data access. Section 302.4 B",
+      "choices": [
+        ""
+      ]
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "The ERP system or GRC software can receive data from a virtually unlimited number of sources.",
+      "choices": [
+        "Yes",
+        " No"
+      ]
+    },
+    {
+      "type": "YesNo",
+      "text": "Collection of data is supported from file queues, FTP transfers, and databases, independent of the actual framework used, suchj as COBIT and ISO/IEC 27000.",
+      "choices": [
+        "Yes",
+        " No"
+      ]
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Notes on verifiable controls:",
+      "choices": [
+        ""
+      ]
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "Ensure that safeguards are operational. Section 302.4 C",
+      "choices": [
+        ""
+      ]
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "ERP system can issue daily reports to email addresses and RSS, and these reports are monitored by staff.",
+      "choices": [
+        "Yes",
+        " No"
+      ]
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Notes on surety that safeguards are operational:",
+      "choices": [
+        ""
+      ]
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "Periodically report the effectiveness of safeguards. Section 302.4 D",
+      "choices": [
+        ""
+      ]
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "The ERP system or GRC software generates multiple types of reports, including a report on all messages, critical messages, and alerts.",
+      "choices": [
+        "Yes",
+        " No"
+      ]
+    },
+    {
+      "type": "YesNo",
+      "text": "The ERP system or GRC software uses a ticketing system that archives what security problems and activities have occurred.",
+      "choices": [
+        "Yes",
+        " No"
+      ]
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Notes on periodically reporting effectiveness of safeguards:",
+      "choices": [
+        ""
+      ]
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "Detect security breaches. Sections 302.5 A, B",
+      "choices": [
+        ""
+      ]
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "The ERP system or GRC software performs semantic analysis of messages in real-time and uses correlation threads, counters, alerts, and triggers that refine and reduce the incoming messages into high-level alerts.",
+      "choices": [
+        "Yes",
+        " No"
+      ]
+    },
+    {
+      "type": "YesNo",
+      "text": "Alerts generate tickets listing the security breach, send out email, or update and incident management system.",
+      "choices": [
+        "Yes",
+        " No"
+      ]
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Notes on detecting security breaches:",
+      "choices": [
+        ""
+      ]
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "Disclose security safeguards to SOX auditors. Section 404.A.1.1",
+      "choices": [
+        ""
+      ]
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "The ERP system or GRC software provides access to auditors using role-based permissions.",
+      "choices": [
+        "Yes",
+        " No"
+      ]
+    },
+    {
+      "type": "YesNo",
+      "text": "Auditors may be permitted complete access to specific reports and facilities without the ability to actually make changes to these components, or reconfigure the system.",
+      "choices": [
+        "Yes",
+        " No"
+      ]
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Notes on disclosing security safeguards:",
+      "choices": [
+        ""
+      ]
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "Disclose security breaches to SOX auditors. Section 404.A.2",
+      "choices": [
+        ""
+      ]
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "The ERP system or GRC software can detect and log security breaches, notify security personnel in real-time, and permit resolution of security incidents to be entered and stored.",
+      "choices": [
+        "Yes",
+        " No"
+      ]
+    },
+    {
+      "type": "YesNo",
+      "text": "All input messages are continuously correlated to create tickets that record security breaches and other events.",
+      "choices": [
+        "Yes",
+        " No"
+      ]
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Notes on disclosure of security breaches to SOX auditors:",
+      "choices": [
+        ""
+      ]
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "Heading",
+      "text": "Disclose failures of security safeguards to SOX auditors. Section 404.B",
+      "choices": [
+        ""
+      ]
+    },
+    {
+      "type": "SectionBreak",
+      "choices": []
+    },
+    {
+      "type": "YesNo",
+      "text": "The ERP system or GRC software periodically tests network and file integrity, and verifies that messages are logged.",
+      "choices": [
+        "Yes",
+        " No"
+      ]
+    },
+    {
+      "type": "YesNo",
+      "text": "The ERP system or GRC software interfaces with common security test software and port scanners to verify that the system is successfully monitoring IT security.",
+      "choices": [
+        "Yes",
+        " No"
+      ]
+    },
+    {
+      "type": "LongAnswer",
+      "text": "Notes on disclosure of failures to SOX auditors:",
+      "choices": [
+        ""
+      ]
+    }
+  ]
+}
